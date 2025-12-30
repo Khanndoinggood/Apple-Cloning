@@ -1,0 +1,1858 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="antialiased">
+    <header class="w-full bg-[#FFFFFFCC] backdrop-blur-md font-sans fixed top-0 left-0 right-0 z-50">
+        <nav class="max-w-[1024px] mx-auto h-[44px] px-4 flex justify-between items-center text-[#1d1d1f] text-xs">
+            <!-- Apple Logo -->
+            <a href="index.html" class="opacity-80 hover:opacity-100 transition-opacity">
+                <svg height="44" viewBox="0 0 14 44" width="14" xmlns="http://www.w3.org/2000/svg"
+                    class="fill-current w-3.5 h-[44px]">
+                    <path
+                        d="m13.0729 17.6825a3.61 3.61 0 0 0 -1.7248 3.0365 3.5132 3.5132 0 0 0 2.1379 3.2223 8.394 8.394 0 0 1 -1.0948 2.2618c-.6816.9812-1.3943 1.9623-2.4787 1.9623s-1.3633-.6374-2.613-.6374c-1.2744 0-1.6534.6158-2.65.6158-1.0734 0-1.8172-1.01-2.4928-2.0503-1.4025-2.035-2.4724-5.8085-1.0334-8.4114a4.1287 4.1287 0 0 1 3.3283-2.1246c1.0315-.0216 2.0163.6938 2.65.6938.6141 0 1.7667-.6938 2.9519-.6938a3.6312 3.6312 0 0 1 2.96 1.4557 3.4542 3.4542 0 0 0 .0594.0694zm-3.7468-5.8164a3.13 3.13 0 0 1 -1.2687 2.3705 3.52 3.52 0 0 1 -2.3168 1.1554 3.0789 3.0789 0 0 1 1.2585-2.4338 3.5042 3.5042 0 0 1 2.327-1.1583z"
+                        fill="currentColor" />
+                </svg>
+            </a>
+
+            <!-- Menu Items -->
+            <ul
+                class="hidden md:flex justify-between flex-1 px-8 items-center list-none m-0 p-0 transition-opacity duration-300 ease-in-out">
+                <li class="group">
+                    <a href="#"
+                        class="opacity-80 hover:opacity-100 transition-opacity h-[44px] flex items-center">Store</a>
+                    <!-- Dropdown Menu -->
+                    <div
+                        class="absolute left-0 top-full w-full bg-[#FFFFFFCC] backdrop-blur-md opacity-0 invisible -translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-in-out z-40">
+                        <div class="max-w-[1024px] mx-auto py-10 px-4 flex justify-start gap-20 text-[#1d1d1f]">
+                            <!-- Column 1: Shop -->
+                            <div class="flex flex-col gap-2 min-w-[200px]">
+                                <h3 class="text-[12px] text-[#6E6E73] font-normal font-sf-pro-text mb-2">Shop</h3>
+                                <div class="flex flex-col gap-1">
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Shop
+                                        the Latest</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Mac</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">iPad</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">iPhone</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Apple
+                                        Watch</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Apple
+                                        Vision Pro</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">AirPods</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Accessories</a>
+                                </div>
+                            </div>
+
+                            <!-- Column 2: Quick Links -->
+                            <div class="flex flex-col gap-2 min-w-[200px] pt-1">
+                                <h3 class="text-[12px] text-[#6E6E73] font-normal font-sf-pro-text mb-2">Quick Links
+                                </h3>
+                                <div class="flex flex-col gap-2">
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Find
+                                        a
+                                        Store</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Order
+                                        Status</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Apple
+                                        Trade
+                                        In</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Financing</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">College
+                                        Student Offer</a>
+                                </div>
+                            </div>
+
+                            <!-- Column 3: Shop Special Stores -->
+                            <div class="flex flex-col gap-2 min-w-[200px] pt-1">
+                                <h3 class="text-[12px] text-[#6E6E73] font-normal font-sf-pro-text mb-2">Shop Special
+                                    Stores</h3>
+                                <div class="flex flex-col gap-2">
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Certified
+                                        Refurbished</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Education</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Business</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Veterans
+                                        and Military</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Government</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="group">
+                    <a href="#"
+                        class="opacity-80 hover:opacity-100 transition-opacity h-[44px] flex items-center">Mac</a>
+                    <div
+                        class="absolute left-0 top-full w-full bg-[#FFFFFFCC] backdrop-blur-md opacity-0 invisible -translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-in-out z-40">
+                        <div class="max-w-[1024px] mx-auto py-10 px-4 flex justify-start gap-20 text-[#1d1d1f]">
+                            <!-- Column 1: Explore Mac -->
+                            <div class="flex flex-col gap-2 min-w-[200px]">
+                                <h3 class="text-[12px] text-[#6E6E73] font-normal font-sf-pro-text mb-2">Explore Mac
+                                </h3>
+                                <div class="flex flex-col gap-1">
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Explore
+                                        All Mac</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">MacBook
+                                        Air</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">MacBook
+                                        Pro</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">iMac</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Mac
+                                        mini</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Mac
+                                        Studio</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Mac
+                                        Pro</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Displays</a>
+                                </div>
+                                <div class="flex flex-col gap-2 mt-3">
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Compare
+                                        Mac</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Switch
+                                        from
+                                        PC to Mac</a>
+                                </div>
+                            </div>
+
+                            <!-- Column 2: Shop Mac -->
+                            <div class="flex flex-col gap-2 min-w-[200px] pt-1">
+                                <h3 class="text-[12px] text-[#6E6E73] font-normal font-sf-pro-text mb-2">Shop Mac</h3>
+                                <div class="flex flex-col gap-2">
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Shop
+                                        Mac</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Help
+                                        Me
+                                        Choose</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Mac
+                                        Accessories</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Apple
+                                        Trade
+                                        In</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Financing</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">College
+                                        Student Offer</a>
+                                </div>
+                            </div>
+
+                            <!-- Column 3: More from Mac -->
+                            <div class="flex flex-col gap-2 min-w-[200px] pt-1">
+                                <h3 class="text-[12px] text-[#6E6E73] font-normal font-sf-pro-text mb-2">More from Mac
+                                </h3>
+                                <div class="flex flex-col gap-2">
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Mac
+                                        Support</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">AppleCare+
+                                        for Mac</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">macOS
+                                        Sequoia</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Apps
+                                        by
+                                        Apple</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Apple
+                                        Intelligence</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">iCloud+</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Mac
+                                        for
+                                        Business</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Education</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="group">
+                    <a href="#"
+                        class="opacity-80 hover:opacity-100 transition-opacity h-[44px] flex items-center">iPad</a>
+                    <div
+                        class="absolute left-0 top-full w-full bg-[#FFFFFFCC] backdrop-blur-md opacity-0 invisible -translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-in-out z-40">
+                        <div class="max-w-[1024px] mx-auto py-10 px-4 flex justify-start gap-20 text-[#1d1d1f]">
+                            <!-- Column 1: Explore iPad -->
+                            <div class="flex flex-col gap-2 min-w-[200px]">
+                                <h3 class="text-[12px] text-[#6E6E73] font-normal font-sf-pro-text mb-2">Explore iPad
+                                </h3>
+                                <div class="flex flex-col gap-1">
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Explore
+                                        All iPad</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">iPad
+                                        Pro</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">iPad
+                                        Air</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">iPad</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">iPad
+                                        mini</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Apple
+                                        Pencil</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Keyboards</a>
+                                </div>
+                                <div class="flex flex-col gap-2 mt-3">
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Compare
+                                        iPad</a>
+                                </div>
+                            </div>
+
+                            <!-- Column 2: Shop iPad -->
+                            <div class="flex flex-col gap-2 min-w-[200px] pt-1">
+                                <h3 class="text-[12px] text-[#6E6E73] font-normal font-sf-pro-text mb-2">Shop iPad</h3>
+                                <div class="flex flex-col gap-2">
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Shop
+                                        iPad</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">iPad
+                                        Accessories</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Apple
+                                        Trade
+                                        In</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Financing</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Personal
+                                        Setup</a>
+                                </div>
+                            </div>
+
+                            <!-- Column 3: More from iPad -->
+                            <div class="flex flex-col gap-2 min-w-[200px] pt-1">
+                                <h3 class="text-[12px] text-[#6E6E73] font-normal font-sf-pro-text mb-2">More from iPad
+                                </h3>
+                                <div class="flex flex-col gap-2">
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">iPad
+                                        Support</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">AppleCare</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">iPadOS</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Apple
+                                        Intelligence</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Apps
+                                        by
+                                        Apple</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">iCloud+</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Education</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="group">
+                    <a href="#"
+                        class="opacity-80 hover:opacity-100 transition-opacity h-[44px] flex items-center">iPhone</a>
+                    <div
+                        class="absolute left-0 top-full w-full bg-[#FFFFFFCC] backdrop-blur-md opacity-0 invisible -translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-in-out z-40">
+                        <div class="max-w-[1024px] mx-auto py-10 px-4 flex justify-start gap-20 text-[#1d1d1f]">
+                            <!-- Column 1: Explore iPhone -->
+                            <div class="flex flex-col gap-2 min-w-[200px]">
+                                <h3 class="text-[12px] text-[#6E6E73] font-normal font-sf-pro-text mb-2">Explore iPhone
+                                </h3>
+                                <div class="flex flex-col gap-1">
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Explore
+                                        All iPhone</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">iPhone
+                                        17 Pro</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">iPhone
+                                        Air</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">iPhone
+                                        17</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">iPhone
+                                        16</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">iPhone
+                                        16e</a>
+                                </div>
+                                <div class="flex flex-col gap-2 mt-3">
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Compare
+                                        iPhone</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Switch
+                                        from
+                                        Android</a>
+                                </div>
+                            </div>
+
+                            <!-- Column 2: Shop iPhone -->
+                            <div class="flex flex-col gap-2 min-w-[200px] pt-1">
+                                <h3 class="text-[12px] text-[#6E6E73] font-normal font-sf-pro-text mb-2">Shop iPhone
+                                </h3>
+                                <div class="flex flex-col gap-2">
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Shop
+                                        iPhone</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">iPhone
+                                        Accessories</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Apple
+                                        Trade
+                                        In</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Carrier
+                                        Deals at Apple</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Financing</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Personal
+                                        Setup</a>
+                                </div>
+                            </div>
+
+                            <!-- Column 3: More from iPhone -->
+                            <div class="flex flex-col gap-2 min-w-[200px] pt-1">
+                                <h3 class="text-[12px] text-[#6E6E73] font-normal font-sf-pro-text mb-2">More from
+                                    iPhone</h3>
+                                <div class="flex flex-col gap-2">
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">iPhone
+                                        Support</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">AppleCare+</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">iOS</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Apple
+                                        Intelligence</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Apps
+                                        by
+                                        Apple</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">iPhone
+                                        Privacy</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Better
+                                        with
+                                        Mac</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">iCloud+</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Wallet,
+                                        Pay, Card</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Siri</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="group">
+                    <a href="#"
+                        class="opacity-80 hover:opacity-100 transition-opacity h-[44px] flex items-center">Watch</a>
+                    <div
+                        class="absolute left-0 top-full w-full bg-[#FFFFFFCC] backdrop-blur-md opacity-0 invisible -translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-in-out z-40">
+                        <div class="max-w-[1024px] mx-auto py-10 px-4 flex justify-start gap-20 text-[#1d1d1f]">
+                            <!-- Column 1: Explore Watch -->
+                            <div class="flex flex-col gap-2 min-w-[200px]">
+                                <h3 class="text-[12px] text-[#6E6E73] font-normal font-sf-pro-text mb-2">Explore Watch
+                                </h3>
+                                <div class="flex flex-col gap-1">
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Explore
+                                        All Apple Watch</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Apple
+                                        Watch Series 11</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Apple
+                                        Watch SE 3</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Apple
+                                        Watch Ultra 3</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Apple
+                                        Watch Nike</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Apple
+                                        Watch Hermès</a>
+                                </div>
+                                <div class="flex flex-col gap-2 mt-3">
+                                    <a href="#" class="text-[14px] font-normal text-[#1D1D1F] hover:text-[#06c]">Compare
+                                        Watch</a>
+                                    <a href="#" class="text-[14px] font-normal text-[#1D1D1F] hover:text-[#06c]">Why
+                                        Apple Watch</a>
+                                </div>
+                            </div>
+
+                            <!-- Column 2: Shop Watch -->
+                            <div class="flex flex-col gap-2 min-w-[200px] pt-1">
+                                <h3 class="text-[12px] text-[#6E6E73] font-normal font-sf-pro-text mb-2">Shop Watch</h3>
+                                <div class="flex flex-col gap-2">
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Shop
+                                        Apple Watch</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Apple
+                                        Watch Bands</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Apple
+                                        Watch Accessories</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Apple
+                                        Trade In</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Financing</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Personal
+                                        Setup</a>
+                                </div>
+                            </div>
+
+                            <!-- Column 3: More from Watch -->
+                            <div class="flex flex-col gap-2 min-w-[200px] pt-1">
+                                <h3 class="text-[12px] text-[#6E6E73] font-normal font-sf-pro-text mb-2">More from Watch
+                                </h3>
+                                <div class="flex flex-col gap-2">
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Apple
+                                        Watch Support</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">AppleCare</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">watchOS</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Apple
+                                        Watch For Your Kids</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Apps
+                                        by Apple</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Apple
+                                        Fitness+</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="group">
+                    <a href="#"
+                        class="opacity-80 hover:opacity-100 transition-opacity h-[44px] flex items-center">Vision</a>
+                    <div
+                        class="absolute left-0 top-full w-full bg-[#FFFFFFCC] backdrop-blur-md opacity-0 invisible -translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-in-out z-40">
+                        <div class="max-w-[1024px] mx-auto py-10 px-4 flex justify-start gap-20 text-[#1d1d1f]">
+                            <!-- Column 1: Explore Vision -->
+                            <div class="flex flex-col gap-2 min-w-[200px]">
+                                <h3 class="text-[12px] text-[#6E6E73] font-normal font-sf-pro-text mb-2">Explore Vision
+                                </h3>
+                                <div class="flex flex-col gap-1">
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Explore
+                                        Apple
+                                        Vision Pro</a>
+                                </div>
+                                <div class="flex flex-col gap-2 mt-3">
+                                    <a href="#" class="text-[14px] font-normal text-[#1D1D1F] hover:text-[#06c]">Guided
+                                        Tour</a>
+                                    <a href="#" class="text-[14px] font-normal text-[#1D1D1F] hover:text-[#06c]">Tech
+                                        Specs</a>
+                                </div>
+                            </div>
+
+                            <!-- Column 2: Shop Vision -->
+                            <div class="flex flex-col gap-2 min-w-[200px] pt-1">
+                                <h3 class="text-[12px] text-[#6E6E73] font-normal font-sf-pro-text mb-2">Shop Vision
+                                </h3>
+                                <div class="flex flex-col gap-2">
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Shop
+                                        Apple Vision Pro</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Vision
+                                        Accessories</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Book
+                                        a Demo</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Financing</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Personal
+                                        Setup</a>
+                                </div>
+                            </div>
+
+                            <!-- Column 3: More from Vision -->
+                            <div class="flex flex-col gap-2 min-w-[200px] pt-1">
+                                <h3 class="text-[12px] text-[#6E6E73] font-normal font-sf-pro-text mb-2">More from
+                                    Vision</h3>
+                                <div class="flex flex-col gap-2">
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Vision
+                                        Support</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">AppleCare+</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">visionOS</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="group">
+                    <a href="#"
+                        class="opacity-80 hover:opacity-100 transition-opacity h-[44px] flex items-center">AirPods</a>
+                    <div
+                        class="absolute left-0 top-full w-full bg-[#FFFFFFCC] backdrop-blur-md opacity-0 invisible -translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-in-out z-40">
+                        <div class="max-w-[1024px] mx-auto py-10 px-4 flex justify-start gap-20 text-[#1d1d1f]">
+                            <div class="flex flex-col gap-2 min-w-[200px]">
+                                <h3 class="text-[12px] text-[#6E6E73] font-normal font-sf-pro-text mb-2">Explore AirPods
+                                </h3>
+                                <div class="flex flex-col gap-1">
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Explore
+                                        All AirPods</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">AirPods
+                                        Pro 2</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">AirPods
+                                        4</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">AirPods
+                                        Max</a>
+                                </div>
+                                <div class="flex flex-col gap-2 mt-3">
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Compare
+                                        AirPods</a>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2 min-w-[200px] pt-1">
+                                <h3 class="text-[12px] text-[#6E6E73] font-normal font-sf-pro-text mb-2">Shop AirPods
+                                </h3>
+                                <div class="flex flex-col gap-2">
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Shop
+                                        AirPods</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">AirPods
+                                        Accessories</a>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2 min-w-[200px] pt-1">
+                                <h3 class="text-[12px] text-[#6E6E73] font-normal font-sf-pro-text mb-2">More from
+                                    AirPods</h3>
+                                <div class="flex flex-col gap-2">
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">AirPods
+                                        Support</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">AppleCare
+                                    </a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">
+                                        Hearing
+                                        Health</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Apple
+                                        Music</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Apple
+                                        Fitness+</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="group">
+                    <a href="tv-home.html"
+                        class="opacity-80 hover:opacity-100 transition-opacity h-[44px] flex items-center">TV &
+                        Home</a>
+                    <div
+                        class="absolute left-0 top-full w-full bg-[#FFFFFFCC] backdrop-blur-md opacity-0 invisible -translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-in-out z-40">
+                        <div class="max-w-[1024px] mx-auto py-10 px-4 flex justify-start gap-20 text-[#1d1d1f]">
+                            <div class="flex flex-col gap-2 min-w-[200px]">
+                                <h3 class="text-[12px] text-[#6E6E73] font-normal font-sf-pro-text mb-2">Explore TV &
+                                    Home</h3>
+                                <div class="flex flex-col gap-1">
+                                    <a href="tv-home.html"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Explore
+                                        TV & Home</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Apple
+                                        TV 4K</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">HomePod</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">HomePod
+                                        mini</a>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2 min-w-[200px] pt-1">
+                                <h3 class="text-[12px] text-[#6E6E73] font-normal font-sf-pro-text mb-2">Shop TV & Home
+                                </h3>
+                                <div class="flex flex-col gap-2">
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Shop
+                                        Apple
+                                        TV 4K</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Shop
+                                        HomePod</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Shop
+                                        HomePod mini</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Shop
+                                        Siri
+                                        Remote</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">TV
+                                        & Home
+                                        Accessories</a>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2 min-w-[200px] pt-1">
+                                <h3 class="text-[12px] text-[#6E6E73] font-normal font-sf-pro-text mb-2">More from TV &
+                                    Home</h3>
+                                <div class="flex flex-col gap-2">
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Apple
+                                        TV
+                                        Support</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">HomePod
+                                        Support</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">AppleCare
+                                        For Apple TV</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">AppleCare
+                                        For HomePod</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Apple
+                                        TV
+                                        app</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Apple
+                                        TV</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Home
+                                        app</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Apple
+                                        Music</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Siri</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">AirPlay</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="group">
+                    <a href="#"
+                        class="opacity-80 hover:opacity-100 transition-opacity h-[44px] flex items-center">Entertainment</a>
+                    <div
+                        class="absolute left-0 top-full w-full bg-[#FFFFFFCC] backdrop-blur-md opacity-0 invisible -translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-in-out z-40">
+                        <div class="max-w-[1024px] mx-auto py-10 px-4 flex justify-start gap-20 text-[#1d1d1f]">
+                            <div class="flex flex-col gap-2 min-w-[200px]">
+                                <h3 class="text-[12px] text-[#6E6E73] font-normal font-sf-pro-text mb-2">Explore
+                                    Entertainment</h3>
+                                <div class="flex flex-col gap-1">
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Explore
+                                        Entertainment</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Apple
+                                        One</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Apple
+                                        TV</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Apple
+                                        Music</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Apple
+                                        Arcade</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Apple
+                                        Fitness+</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Apple
+                                        News+</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Apple
+                                        Podcasts</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Apple
+                                        Books</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">App
+                                        Store</a>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2 min-w-[200px] pt-1">
+                                <h3 class="text-[12px] text-[#6E6E73] font-normal font-sf-pro-text mb-2">Support</h3>
+                                <div class="flex flex-col gap-2">
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Apple
+                                        TV
+                                        Support</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Apple
+                                        Music
+                                        Support</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="group">
+                    <a href="#"
+                        class="opacity-80 hover:opacity-100 transition-opacity h-[44px] flex items-center">Accessories</a>
+                    <div
+                        class="absolute left-0 top-full w-full bg-[#FFFFFFCC] backdrop-blur-md opacity-0 invisible -translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-in-out z-40">
+                        <div class="max-w-[1024px] mx-auto py-10 px-4 flex justify-start gap-20 text-[#1d1d1f]">
+                            <div class="flex flex-col gap-2 min-w-[200px]">
+                                <h3 class="text-[12px] text-[#6E6E73] font-normal font-sf-pro-text mb-2">Shop
+                                    Accessories</h3>
+                                <div class="flex flex-col gap-1">
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Shop
+                                        All Accessories</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Mac</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">iPad</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">iPhone</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Apple
+                                        Watch</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">AirPods</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">TV
+                                        & Home</a>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2 min-w-[200px]">
+                                <h3 class="text-[12px] text-[#6E6E73] font-normal font-sf-pro-text mb-2">Explore
+                                    Accessories</h3>
+                                <div class="flex flex-col gap-2">
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Made
+                                        by Apple</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Beats
+                                    </a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">AirTag</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Assistive
+                                        Technologies</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="group">
+                    <a href="#"
+                        class="opacity-80 hover:opacity-100 transition-opacity h-[44px] flex items-center">Support</a>
+                    <div
+                        class="absolute left-0 top-full w-full bg-[#FFFFFFCC] backdrop-blur-md opacity-0 invisible -translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-in-out z-40">
+                        <div class="max-w-[1024px] mx-auto py-10 px-4 flex justify-start gap-20 text-[#1d1d1f]">
+                            <div class="flex flex-col gap-2 min-w-[200px]">
+                                <h3 class="text-[12px] text-[#6E6E73] font-normal font-sf-pro-text mb-2">Explore Support
+                                </h3>
+                                <div class="flex flex-col gap-1">
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">iPhone</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Mac</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">iPad</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Watch</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">AirPods</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">Music</a>
+                                    <a href="#"
+                                        class="text-[24px] font-sf-pro-display font-semibold text-[#333333] py-[8px] px-[11px] block -ml-[11px] hover:bg-gray-100 rounded-lg">TV</a>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2 min-w-[200px] pt-1">
+                                <h3 class="text-[12px] text-[#6E6E73] font-normal font-sf-pro-text mb-2">Get Help</h3>
+                                <div class="flex flex-col gap-2">
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Community</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Check
+                                        Coverage</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Repair</a>
+                                    <a href="#"
+                                        class="text-[12px] font-medium text-[#1D1D1F] hover:text-[#06c] font-sf-pro-text">Contact
+                                        Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <!-- Search Trigger (Visible when inactive) -->
+            <div class="flex items-center gap-4">
+                <button id="search-trigger" class="opacity-80 hover:opacity-100 transition-opacity focus:outline-none">
+                    <svg width="14.08" height="14.08" viewBox="0 0 17 17" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M16 16L12.4485 12.4485M14.2857 7.64286C14.2857 11.3114 11.3114 14.2857 7.64286 14.2857C3.97436 14.2857 1 11.3114 1 7.64286C1 3.97436 3.97436 1 7.64286 1C11.3114 1 14.2857 3.97436 14.2857 7.64286Z"
+                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+                <a href="#" class="opacity-80 hover:opacity-100 transition-opacity">
+                    <svg class="w-[14px] h-[44px]" viewBox="0 0 14 44" fill="#333232">
+                        <path
+                            d="m11.3535 16.0283h-1.0205a3.4229 3.4229 0 0 0 -3.333-2.9648 3.4229 3.4229 0 0 0 -3.333 2.9648h-1.02a2.1184 2.1184 0 0 0 -2.117 2.1162v7.7155a2.1186 2.1186 0 0 0 2.1162 2.1167h8.707a2.1186 2.1186 0 0 0 2.1168-2.1167v-7.7155a2.1184 2.1184 0 0 0 -2.1165-2.1162zm-4.3535-1.8652a2.3169 2.3169 0 0 1 2.2222 1.8652h-4.4444a2.3169 2.3169 0 0 1 2.2222-1.8652zm5.37 11.6969a1.0182 1.0182 0 0 1 -1.0166 1.0171h-8.7069a1.0182 1.0182 0 0 1 -1.0165-1.0171v-7.7155a1.0178 1.0178 0 0 1 1.0166-1.0166h8.707a1.0178 1.0178 0 0 1 1.0164 1.0166z" />
+                    </svg>
+                </a>
+            </div>
+            <!-- Search Dropdown Overlay -->
+            <div id="search-overlay"
+                class="invisible opacity-0 -translate-y-4 fixed left-0 top-[44px] w-full h-auto bg-[#FFFFFFCC] backdrop-blur-md z-40 transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] shadow-lg pb-10">
+                <div class="max-w-[680px] mx-auto pt-[60px]">
+                    <!-- Search Input Bar -->
+                    <div class="flex items-center mb-10 w-full">
+                        <span class="text-[#6E6E73] mr-4">
+                            <svg width="24" height="24" viewBox="0 0 17 17" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16 16L12.4485 12.4485M14.2857 7.64286C14.2857 11.3114 11.3114 14.2857 7.64286 14.2857C3.97436 14.2857 1 11.3114 1 7.64286C1 3.97436 3.97436 1 7.64286 1C11.3114 1 14.2857 3.97436 14.2857 7.64286Z"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                        <input id="search-input" type="text" placeholder="Search apple.com"
+                            class="flex-1 bg-transparent text-[24px] md:text-[32px] text-[#1d1d1f] outline-none placeholder-[#6E6E73] font-sf-pro-display font-medium tracking-tight">
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div id="quick-links"
+                        class="pl-10 opacity-0 translate-y-2 transition-all duration-500 ease-out delay-100">
+                        <h3 class="text-[12px] text-[#6E6E73] mb-3 font-normal">Quick Links</h3>
+                        <ul class="flex flex-col gap-3">
+                            <li>
+                                <a href="#"
+                                    class="group flex items-center text-[14px] text-[#1d1d1f] font-semibold hover:text-[#06c] transition-colors">
+                                    <span
+                                        class="mr-2 text-[#6E6E73] group-hover:text-[#06c] text-[10px] transition-colors">
+                                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 5H9M9 5L5 1M9 5L5 9" stroke="currentColor" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                    Shop Gifts
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="group flex items-center text-[14px] text-[#1d1d1f] font-semibold hover:text-[#06c] transition-colors">
+                                    <span
+                                        class="mr-2 text-[#6E6E73] group-hover:text-[#06c] text-[10px] transition-colors">
+                                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 5H9M9 5L5 1M9 5L5 9" stroke="currentColor" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                    Find a Store
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="group flex items-center text-[14px] text-[#1d1d1f] font-semibold hover:text-[#06c] transition-colors">
+                                    <span
+                                        class="mr-2 text-[#6E6E73] group-hover:text-[#06c] text-[10px] transition-colors">
+                                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 5H9M9 5L5 1M9 5L5 9" stroke="currentColor" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                    Apple Gift Card
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="group flex items-center text-[14px] text-[#1d1d1f] font-semibold hover:text-[#06c] transition-colors">
+                                    <span
+                                        class="mr-2 text-[#6E6E73] group-hover:text-[#06c] text-[10px] transition-colors">
+                                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 5H9M9 5L5 1M9 5L5 9" stroke="currentColor" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                    Apple Vision Pro
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="group flex items-center text-[14px] text-[#1d1d1f] font-semibold hover:text-[#06c] transition-colors">
+                                    <span
+                                        class="mr-2 text-[#6E6E73] group-hover:text-[#06c] text-[10px] transition-colors">
+                                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 5H9M9 5L5 1M9 5L5 9" stroke="currentColor" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                    Apple Trade In
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="overflow-hidden">
+        <!-- Subcategory Icon Section -->
+        <section class="w-full bg-[#f5f5f7] mt-[48px] h-32 flex items-center">
+            <div class="max-w-[980px] mx-auto px-4 w-full">
+                <!-- Horizontal scrolling container -->
+                <div class="overflow-x-auto overflow-y-hidden -mx-4 px-4 md:overflow-x-visible">
+                    <ul class="flex justify-center items-start gap-8 md:gap-14 lg:gap-16 min-w-max md:min-w-0">
+                        <!-- Apple TV 4K -->
+                        <li class="flex flex-col items-center gap-3 group cursor-pointer flex-shrink-0">
+                            <div class="h-[54px] w-[54px] flex items-center justify-center">
+                                <img src="images/seven-icons/1.svg" alt="Apple TV 4K"
+                                    class="h-[54px] w-auto group-hover:opacity-80 transition-opacity">
+                            </div>
+                            <span
+                                class="text-[12px] font-normal text-[#1d1d1f] group-hover:text-[#06c] transition-colors whitespace-nowrap text-center">Apple
+                                TV 4K</span>
+                        </li>
+
+                        <!-- Apple TV -->
+                        <li class="flex flex-col items-center gap-3 group cursor-pointer flex-shrink-0">
+                            <div class="h-[54px] w-[54px] flex items-center justify-center">
+                                <img src="images/seven-icons/2.svg" alt="Apple TV"
+                                    class="h-[54px] w-auto group-hover:opacity-80 transition-opacity">
+                            </div>
+                            <span
+                                class="text-[12px] font-normal text-[#1d1d1f] group-hover:text-[#06c] transition-colors whitespace-nowrap text-center">Apple
+                                TV</span>
+                        </li>
+
+                        <!-- Apple TV+ -->
+                        <li class="flex flex-col items-center gap-3 group cursor-pointer flex-shrink-0">
+                            <div class="h-[54px] w-[54px] flex items-center justify-center">
+                                <img src="images/seven-icons/3.svg" alt="Apple TV+"
+                                    class="h-[54px] w-auto group-hover:opacity-80 transition-opacity">
+                            </div>
+                            <span
+                                class="text-[12px] font-normal text-[#1d1d1f] group-hover:text-[#06c] transition-colors whitespace-nowrap text-center">Apple
+                                TV+</span>
+                        </li>
+
+                        <!-- HomePod -->
+                        <li class="flex flex-col items-center gap-3 group cursor-pointer flex-shrink-0">
+                            <div class="h-[54px] w-[54px] flex items-center justify-center">
+                                <img src="images/seven-icons/4.svg" alt="HomePod"
+                                    class="h-[54px] w-auto group-hover:opacity-80 transition-opacity">
+                            </div>
+                            <span
+                                class="text-[12px] font-normal text-[#1d1d1f] group-hover:text-[#06c] transition-colors whitespace-nowrap text-center">HomePod</span>
+                        </li>
+
+                        <!-- HomePod mini -->
+                        <li class="flex flex-col items-center gap-3 group cursor-pointer flex-shrink-0">
+                            <div class="h-[54px] w-[54px] flex items-center justify-center">
+                                <img src="images/seven-icons/5.svg" alt="HomePod mini"
+                                    class="h-[54px] w-auto group-hover:opacity-80 transition-opacity">
+                            </div>
+                            <span
+                                class="text-[12px] font-normal text-[#1d1d1f] group-hover:text-[#06c] transition-colors whitespace-nowrap text-center">HomePod
+                                mini</span>
+                        </li>
+
+                        <!-- Home app -->
+                        <li class="flex flex-col items-center gap-3 group cursor-pointer flex-shrink-0">
+                            <div class="h-[54px] w-[54px] flex items-center justify-center">
+                                <img src="images/seven-icons/6.svg" alt="Home app"
+                                    class="h-[54px] w-auto group-hover:opacity-80 transition-opacity">
+                            </div>
+                            <span
+                                class="text-[12px] font-normal text-[#1d1d1f] group-hover:text-[#06c] transition-colors whitespace-nowrap text-center">Home
+                                app</span>
+                        </li>
+
+                        <!-- Accessories -->
+                        <li class="flex flex-col items-center gap-3 group cursor-pointer flex-shrink-0">
+                            <div class="h-[54px] w-[54px] flex items-center justify-center">
+                                <img src="images/seven-icons/7.svg" alt="Accessories"
+                                    class="h-[54px] w-auto group-hover:opacity-80 transition-opacity">
+                            </div>
+                            <span
+                                class="text-[12px] font-normal text-[#1d1d1f] group-hover:text-[#06c] transition-colors whitespace-nowrap text-center">Accessories</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- Hero Banner Grid Section -->
+        <section class="w-full bg-[#f5f5f7] py-12">
+            <div class="max-w-[1380px] mx-auto px-4">
+                <!-- Grid Container-->
+                <div class="grid grid-cols-12 gap-5 md:gap-[20px] grid-rows-[800px_790px]">
+
+                    <!-- Top Left Card: HomePod -->
+                    <div
+                        class="col-span-12 md:col-span-6 bg-black rounded-2xl overflow-hidden shadow-sm relative h-full w-full">
+                        <div class="absolute top-0 w-full pt-8 px-8 text-center z-10">
+                            <h2 class="text-xl md:text-xl font-normal text-white mb-1 tracking-tight">HomePod</h2>
+                            <p class="text-2xl md:text-4xl font-bold text-white leading-[1.1] tracking-tighter mb-5">
+                                Profound sound.</p>
+                            <div class="flex flex-wrap items-center justify-center gap-x-4 gap-y-3">
+                                <a href="#"
+                                    class="inline-block bg-[#0071e3] text-white px-7 py-3 rounded-full text-base font-medium hover:bg-[#0077ed] transition-colors">Buy</a>
+                                <a href="#" class="text-[#2997ff] hover:underline text-base font-normal">Learn more
+                                    &gt;</a>
+                            </div>
+                        </div>
+                        <div class="absolute bottom-0 left-0 right-0 h-[400px] md:h-[480px]">
+                            <img src="images/TV_Home/homepod__eam53jjm772a_large_2x.jpg" alt="HomePod"
+                                class="w-full h-full object-cover object-top">
+                        </div>
+                    </div>
+
+                    <!-- Top Right Card: HomePod mini -->
+                    <div
+                        class="col-span-12 md:col-span-6 bg-white rounded-2xl overflow-hidden shadow-sm relative h-full w-full">
+                        <div class="absolute top-0 w-full pt-8 px-8 text-center z-10">
+                            <h2 class="text-xl md:text-xl font-normal text-black mb-1 tracking-tight">HomePod mini</h2>
+                            <p class="text-2xl md:text-4xl font-bold text-black leading-[1.1] tracking-tighter mb-5">
+                                Room-filling sound.</p>
+                            <div class="flex flex-wrap items-center justify-center gap-x-4 gap-y-3">
+                                <a href="#"
+                                    class="inline-block bg-[#0071e3] text-white px-7 py-3 rounded-full text-base font-medium hover:bg-[#0077ed] transition-colors">Buy</a>
+                                <a href="#" class="text-[#06c] hover:underline text-base font-normal">Learn more
+                                    &gt;</a>
+                            </div>
+                        </div>
+                        <div class="absolute bottom-0 left-0 right-0 flex justify-center overflow-hidden">
+                            <img src="images/TV_Home/room_filling_sound__zagu3551kwyi_large_2x.jpg" alt="HomePod mini"
+                                class="w-full max-w-[760px] object-cover object-top">
+                        </div>
+                    </div>
+
+                    <!-- Bottom Left Card: Apple TV 4K -->
+                    <div
+                        class="col-span-12 md:col-span-6 bg-white rounded-2xl overflow-hidden shadow-sm relative h-full w-full">
+                        <div class="absolute top-0 w-full pt-8 px-8 text-center z-10">
+                            <img src="images/TV_Home/apple_tv_4k_logo__vyjj7uki3tui_large_2x.png" alt="Apple TV 4K"
+                                class="mx-auto mb-1 w-[81px] h-[25px] object-contain">
+                            <p class="text-2xl md:text-4xl font-bold text-black leading-[1.15] tracking-tight mb-0.5">
+                                The Apple experience.</p>
+                            <p class="text-2xl md:text-4xl font-bold text-black leading-[1.15] tracking-tight mb-2">
+                                Cinematic in every sense.</p>
+                            <p class="text-sm text-gray-500 mb-4">Starting at $129</p>
+                            <div class="flex flex-wrap items-center justify-center gap-x-4 gap-y-3">
+                                <a href="#"
+                                    class="inline-block bg-[#0071e3] text-white px-7 py-3 rounded-full text-base font-medium hover:bg-[#0077ed] transition-colors">Buy</a>
+                                <a href="#" class="text-[#06c] hover:underline text-base font-normal">Learn more
+                                    &gt;</a>
+                            </div>
+                        </div>
+                        <div class="absolute bottom-0 left-0 right-0 h-[400px] md:h-[480px]">
+                            <img src="images/TV_Home/apple_tv_4k__b30wcqp0pdle_large_2x.jpg" alt="Apple TV 4K"
+                                class="w-full h-full object-cover object-top">
+                        </div>
+                    </div>
+
+                    <!-- Bottom Right Card: Home app -->
+                    <div
+                        class="col-span-12 md:col-span-6 bg-white rounded-2xl overflow-hidden shadow-sm relative h-full w-full">
+                        <div class="absolute top-0 w-full pt-8 px-8 text-center z-10">
+                            <img src="images/TV_Home/home_icon__9u57pp0qahea_large_2x.png" alt="Home app"
+                                class="mx-auto mb-1 w-[47px] h-[47px] object-contain">
+                            <h2 class="text-xl md:text-xl font-normal text-black mb-1 tracking-tight">Home app</h2>
+                            <p class="text-2xl md:text-4xl font-bold text-black leading-[1.15] tracking-tight mb-4">
+                                Control your entire home<br>with ease.</p>
+                            <div class="flex items-center justify-center gap-4">
+                                <a href="#" class="text-[#06c] hover:underline text-base font-normal">Learn more
+                                    &gt;</a>
+                            </div>
+                        </div>
+                        <div class="absolute bottom-0 left-0 right-0 h-[400px] md:h-[480px]">
+                            <img src="images/TV_Home/homeapp__cpc1k972xys2_large_2x.jpg" alt="Home app"
+                                class="w-full h-full object-cover object-top">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Smart Home Section -->
+        <section class="w-full bg-[#f5f5f7] py-24 overflow-hidden">
+            <div class="max-w-[1440px] mx-auto px-4 relative group">
+
+                <!-- Headline -->
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-[56px] font-bold text-[#1d1d1f] tracking-tight leading-[1.05]">
+                        Every reason to turn your<br>house into a smart home.
+                    </h2>
+                </div>
+
+                <div id="smart-home-carousel" role="region" aria-label="Smart Home features carousel"
+                    class="grid grid-flow-col auto-cols-[400px] gap-5 snap-x snap-mandatory scrollbar-hide -mx-4 px-4 md:mx-0 md:px-0 scroll-smooth content-start h-[480px] overflow-x-auto">
+
+                    <!-- Card 1: Control -->
+                    <div class="snap-start bg-white rounded-[40px] overflow-hidden shadow-sm relative w-[400px] min-w-[400px] h-[480px] flex flex-col group/card cursor-pointer transition-transform duration-300 hover:scale-[1.01]"
+                        style="border-radius: 16px; -webkit-mask-image: -webkit-radial-gradient(white, black);">
+                        <div class="pt-10 px-8 text-center z-10">
+                            <h3 class="text-2xl md:text-[28px] font-bold text-[#1d1d1f] leading-[1.1] mb-3">
+                                Easily control your home from anywhere with your favorite devices.
+                            </h3>
+                            <a href="#"
+                                class="inline-block text-[#06c] hover:underline text-[17px] font-normal tracking-wide">Learn
+                                more about the Home app &gt;</a>
+                        </div>
+                        <div class="absolute bottom-0 left-0 right-0 h-[280px] md:h-[300px] overflow-hidden">
+                            <img src="images/TV_Home/smart_control__dsa6v8m1pp0m_large_2x.jpg" alt="Smart Control"
+                                class="w-full h-full object-cover object-top transition-transform duration-500 group-hover/card:scale-105">
+                        </div>
+                    </div>
+
+                    <!-- Card 2: Connected -->
+                    <div class="snap-start bg-white rounded-[40px] overflow-hidden shadow-sm relative w-[400px] min-w-[400px] h-[480px] flex flex-col group/card cursor-pointer transition-transform duration-300 hover:scale-[1.01]"
+                        style="border-radius: 16px; -webkit-mask-image: -webkit-radial-gradient(white, black);">
+                        <div class="pt-10 px-8 text-center z-10">
+                            <h3 class="text-2xl md:text-[28px] font-bold text-[#1d1d1f] leading-[1.1] mb-3">
+                                Seamlessly connected entertainment in every room.
+                            </h3>
+                            <a href="#"
+                                class="inline-block text-[#06c] hover:underline text-[17px] font-normal tracking-wide">Learn
+                                more about HomePod &gt;</a>
+                        </div>
+                        <div class="absolute bottom-0 left-0 right-0 h-[280px] md:h-[300px] overflow-hidden">
+                            <img src="images/TV_Home/smart_connect__d8o6agoqfh0m_large_2x.jpg" alt="Smart Connect"
+                                class="w-full h-full object-cover object-top transition-transform duration-500 group-hover/card:scale-105">
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Siri -->
+                    <div class="snap-start bg-white rounded-[40px] overflow-hidden shadow-sm relative w-[400px] min-w-[400px] h-[480px] flex flex-col group/card cursor-pointer transition-transform duration-300 hover:scale-[1.01]"
+                        style="border-radius: 16px; -webkit-mask-image: -webkit-radial-gradient(white, black);">
+                        <div class="pt-10 px-8 text-center z-10">
+                            <h2 class="text-2xl md:text-[28px] font-bold text-[#1d1d1f] leading-[1.1] mb-3">
+                                Run it all with your voice.
+                            </h2>
+                            <a href="#"
+                                class="inline-block text-[#06c] hover:underline text-[17px] font-normal tracking-wide">Learn
+                                more about Siri &gt;</a>
+                        </div>
+                        <div class="flex-1 flex flex-col justify-center items-center w-full px-8 pb-12">
+                            <p class="text-3xl md:text-[28px] font-bold text-center leading-[1.1]">
+                                <span class="text-transparent"
+                                    style="background: linear-gradient(90deg, #ff6b9d 0%, #c563d6 50%, #9b59d0 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+                                    Hey Siri, turn<br>off the lights<br>downstairs
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Card 4: Privacy -->
+                    <div class="snap-start bg-white rounded-[40px] overflow-hidden shadow-sm relative w-[400px] min-w-[400px] h-[480px] flex flex-col group/card cursor-pointer transition-transform duration-300 hover:scale-[1.01]"
+                        style="border-radius: 16px; -webkit-mask-image: -webkit-radial-gradient(white, black);">
+                        <div class="pt-10 px-8 text-center z-10">
+                            <h3 class="text-2xl md:text-[28px] font-bold text-[#1d1d1f] leading-[1.1] mb-3">
+                                All with the security and privacy of Apple.
+                            </h3>
+                            <a href="#"
+                                class="inline-block text-[#06c] hover:underline text-[17px] font-normal tracking-wide">Learn
+                                more about Privacy &gt;</a>
+                        </div>
+                        <div class="absolute bottom-0 left-0 right-0 h-[280px] md:h-[300px] overflow-hidden">
+                            <img src="images/TV_Home/security_and_privacy__bzlguj2x29jm_large_2x.jpg"
+                                alt="Security and Privacy"
+                                class="w-full h-full object-cover object-top transition-transform duration-500 group-hover/card:scale-105">
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Navigation Arrows -->
+                <div class="flex justify-center items-center gap-6 mt-2">
+                    <button id="carousel-prev" aria-label="Previous smart home features"
+                        class="w-[36px] h-[36px] flex items-center justify-center rounded-full bg-[#d2d2d7]/50 hover:bg-[#d2d2d7] text-[#1d1d1f] transition-all disabled:opacity-30 disabled:cursor-not-allowed transform hover:scale-105 active:scale-95">
+                        <svg viewBox="0 0 18 18" class="w-[18px] h-[18px] fill-current" aria-hidden="true">
+                            <path d="M11.8 17.5L3.2 8.9L11.8.3l1.1 1.1-7.5 7.5 7.5 7.5-1.1 1.1z"></path>
+                        </svg>
+                    </button>
+                    <button id="carousel-next" aria-label="Next smart home features"
+                        class="w-[36px] h-[36px] flex items-center justify-center rounded-full bg-[#d2d2d7]/50 hover:bg-[#d2d2d7] text-[#1d1d1f] transition-all disabled:opacity-30 disabled:cursor-not-allowed transform hover:scale-105 active:scale-95">
+                        <svg viewBox="0 0 18 18" class="w-[18px] h-[18px] fill-current" aria-hidden="true">
+                            <path d="M5.2.3l8.6 8.6-8.6 8.6-1.1-1.1 7.5-7.5-7.5-7.5 1.1-1.1z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    const carousel = document.getElementById('smart-home-carousel');
+                    const prevBtn = document.getElementById('carousel-prev');
+                    const nextBtn = document.getElementById('carousel-next');
+
+                    if (!carousel || !prevBtn || !nextBtn) {
+                        console.error('Smart Home Carousel elements not found');
+                        return;
+                    }
+                    const SCROLL_AMOUNT = 420;
+
+                    // Update button states based on scroll position
+                    function updateButtonStates() {
+                        const scrollLeft = carousel.scrollLeft;
+                        const maxScroll = carousel.scrollWidth - carousel.clientWidth;
+
+                        prevBtn.disabled = scrollLeft <= 1;
+
+                        nextBtn.disabled = scrollLeft >= maxScroll - 1;
+                    }
+
+                    updateButtonStates();
+
+                    carousel.addEventListener('scroll', updateButtonStates);
+
+                    nextBtn.addEventListener('click', () => {
+                        carousel.scrollBy({ left: SCROLL_AMOUNT, behavior: 'smooth' });
+                    });
+
+                    prevBtn.addEventListener('click', () => {
+                        carousel.scrollBy({ left: -SCROLL_AMOUNT, behavior: 'smooth' });
+                    });
+                    carousel.addEventListener('keydown', (e) => {
+                        if (e.key === 'ArrowLeft' && !prevBtn.disabled) {
+                            e.preventDefault();
+                            prevBtn.click();
+                        } else if (e.key === 'ArrowRight' && !nextBtn.disabled) {
+                            e.preventDefault();
+                            nextBtn.click();
+                        }
+                    });
+                });
+            </script>
+        </section>
+
+        <!-- Accessories Section -->
+        <section class="w-full bg-[#f5f5f7] py-24 overflow-hidden">
+            <div class="max-w-[1440px] mx-auto px-4 relative group">
+
+                <!-- Headline -->
+                <div class="text-center mb-6">
+                    <h2 class="text-4xl md:text-[56px] font-bold text-[#1d1d1f] tracking-tight leading-[1.05] mb-4">
+                        Accessories. Around your home<br>and across your devices.
+                    </h2>
+                    <a href="#" class="text-[#06c] hover:underline text-[21px] font-normal">Shop accessories &gt;</a>
+                </div>
+
+                <!-- Carousel Container -->
+                <div class="mt-16">
+                    <div id="accessories-carousel" role="region" aria-label="Accessories carousel"
+                        class="grid grid-flow-col auto-cols-[400px] gap-5 snap-x snap-mandatory scrollbar-hide -mx-4 px-4 md:mx-0 md:px-0 scroll-smooth content-start overflow-x-auto">
+
+                        <!-- Card 1: Lighting -->
+                        <div class="snap-start bg-white overflow-hidden shadow-sm relative w-[400px] min-w-[400px] h-[480px] flex flex-col"
+                            style="border-radius: 16px;">
+                            <div class="pt-10 px-6 text-center">
+                                <h3 class="text-[28px] font-bold text-[#1d1d1f] leading-[1.1] mb-2">
+                                    Lighting
+                                </h3>
+                                <p class="text-[17px] text-[#6e6e73] leading-[1.4] mb-3">
+                                    Put your routine on a timer. Or set the mood with bulbs and switches.
+                                </p>
+                                <a href="#" class="inline-block text-[#06c] hover:underline text-[17px] font-normal">
+                                    Shop Lights & Bulbs, Outlets,<br>and Switches &gt;
+                                </a>
+                            </div>
+                            <div class="flex-1 flex flex-col justify-end items-center px-6 pb-6 mt-6">
+                                <img src="images/TV_Home/lighting__bwpnaru6q1w2_large_2x.jpg" alt="Nanoleaf A19 Bulb"
+                                    class="w-full h-auto max-h-[220px] object-contain mb-4">
+                                <p class="text-[12px] text-[#6e6e73] text-center">Nanoleaf A19 Bulb</p>
+                            </div>
+                        </div>
+
+                        <!-- Card 2: Security -->
+                        <div class="snap-start bg-white overflow-hidden shadow-sm relative w-[400px] min-w-[400px] h-[480px] flex flex-col"
+                            style="border-radius: 16px;">
+                            <div class="pt-10 px-6 text-center">
+                                <h3 class="text-[28px] font-bold text-[#1d1d1f] leading-[1.1] mb-2">
+                                    Security
+                                </h3>
+                                <p class="text-[17px] text-[#6e6e73] leading-[1.4] mb-3">
+                                    Keep an eye on what matters most with cameras, doorbells, and more.
+                                </p>
+                                <a href="#" class="inline-block text-[#06c] hover:underline text-[17px] font-normal">
+                                    Shop Cameras and Sensors &gt;
+                                </a>
+                            </div>
+                            <div class="flex-1 flex flex-col justify-end items-center px-6 pb-6 mt-6">
+                                <img src="images/TV_Home/security__dbctk5zp4gcy_large_2x.jpg"
+                                    alt="Logitech Circle View Wired Doorbell"
+                                    class="w-full h-auto max-h-[220px] object-contain mb-4">
+                                <p class="text-[12px] text-[#6e6e73] text-center">Logitech Circle View Wired Doorbell
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Card 3: Comfort -->
+                        <div class="snap-start bg-white overflow-hidden shadow-sm relative w-[400px] min-w-[400px] h-[480px] flex flex-col"
+                            style="border-radius: 16px;">
+                            <div class="pt-10 px-6 text-center">
+                                <h3 class="text-[28px] font-bold text-[#1d1d1f] leading-[1.1] mb-2">
+                                    Comfort
+                                </h3>
+                                <p class="text-[17px] text-[#6e6e73] leading-[1.4] mb-3">
+                                    Turn up the heat or keep your cool with temperature controls and fans.
+                                </p>
+                                <a href="#" class="inline-block text-[#06c] hover:underline text-[17px] font-normal">
+                                    Shop Thermostats &gt;
+                                </a>
+                            </div>
+                            <div class="flex-1 flex flex-col justify-end items-center px-6 pb-6 mt-6">
+                                <img src="images/TV_Home/comfort__bnwbuouyz10i_large_2x.jpg"
+                                    alt="ecobee Smart Thermostat Premium"
+                                    class="w-full h-auto max-h-[220px] object-contain mb-4">
+                                <p class="text-[12px] text-[#6e6e73] text-center">ecobee Smart Thermostat Premium with
+                                    Siri and<br>Built-In Air Quality Monitor</p>
+                            </div>
+                        </div>
+
+                        <!-- Card 4: Additional category -->
+                        <div class="snap-start bg-white overflow-hidden shadow-sm relative w-[400px] min-w-[400px] h-[480px] flex flex-col"
+                            style="border-radius: 16px;">
+                            <div class="pt-10 px-6 text-center">
+                                <h3 class="text-[28px] font-bold text-[#1d1d1f] leading-[1.1] mb-2">
+                                    Entry
+                                </h3>
+                                <p class="text-[17px] text-[#6e6e73] leading-[1.4] mb-3">
+                                    Lock and unlock from anywhere with smart locks and doorbells.
+                                </p>
+                                <a href="#" class="inline-block text-[#06c] hover:underline text-[17px] font-normal">
+                                    Shop Locks and Doorbells &gt;
+                                </a>
+                            </div>
+                            <div class="flex-1 flex flex-col justify-end items-center px-6 pb-6 mt-6">
+                                <img src="images/TV_Home/entry__bfom4g78kbg2_large_2x.jpg" alt="Smart Lock"
+                                    class="w-full h-auto max-h-[220px] object-contain mb-4">
+                                <p class="text-[12px] text-[#6e6e73] text-center">Smart Entry Lock</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Navigation Arrows -->
+                    <div class="flex justify-center items-center gap-6 mt-12">
+                        <button id="accessories-prev" aria-label="Previous accessories"
+                            class="w-[36px] h-[36px] flex items-center justify-center rounded-full bg-[#d2d2d7]/50 hover:bg-[#d2d2d7] text-[#1d1d1f] transition-all disabled:opacity-30 disabled:cursor-not-allowed transform hover:scale-105 active:scale-95">
+                            <svg viewBox="0 0 18 18" class="w-[18px] h-[18px] fill-current" aria-hidden="true">
+                                <path d="M11.8 17.5L3.2 8.9L11.8.3l1.1 1.1-7.5 7.5 7.5 7.5-1.1 1.1z"></path>
+                            </svg>
+                        </button>
+                        <button id="accessories-next" aria-label="Next accessories"
+                            class="w-[36px] h-[36px] flex items-center justify-center rounded-full bg-[#d2d2d7]/50 hover:bg-[#d2d2d7] text-[#1d1d1f] transition-all disabled:opacity-30 disabled:cursor-not-allowed transform hover:scale-105 active:scale-95">
+                            <svg viewBox="0 0 18 18" class="w-[18px] h-[18px] fill-current" aria-hidden="true">
+                                <path d="M5.2.3l8.6 8.6-8.6 8.6-1.1-1.1 7.5-7.5-7.5-7.5 1.1-1.1z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    const accessoriesCarousel = document.getElementById('accessories-carousel');
+                    const accessoriesPrevBtn = document.getElementById('accessories-prev');
+                    const accessoriesNextBtn = document.getElementById('accessories-next');
+
+                    if (!accessoriesCarousel || !accessoriesPrevBtn || !accessoriesNextBtn) {
+                        console.error('Accessories Carousel elements not found');
+                        return;
+                    }
+
+                    const ACCESSORIES_SCROLL_AMOUNT = 420;
+
+                    function updateAccessoriesButtonStates() {
+                        const scrollLeft = accessoriesCarousel.scrollLeft;
+                        const maxScroll = accessoriesCarousel.scrollWidth - accessoriesCarousel.clientWidth;
+
+                        accessoriesPrevBtn.disabled = scrollLeft <= 1;
+                        accessoriesNextBtn.disabled = scrollLeft >= maxScroll - 1;
+                    }
+
+                    updateAccessoriesButtonStates();
+
+                    accessoriesCarousel.addEventListener('scroll', updateAccessoriesButtonStates);
+
+                    accessoriesNextBtn.addEventListener('click', () => {
+                        accessoriesCarousel.scrollBy({ left: ACCESSORIES_SCROLL_AMOUNT, behavior: 'smooth' });
+                    });
+
+                    accessoriesPrevBtn.addEventListener('click', () => {
+                        accessoriesCarousel.scrollBy({ left: -ACCESSORIES_SCROLL_AMOUNT, behavior: 'smooth' });
+                    });
+
+                    accessoriesCarousel.addEventListener('keydown', (e) => {
+                        if (e.key === 'ArrowLeft' && !accessoriesPrevBtn.disabled) {
+                            e.preventDefault();
+                            accessoriesPrevBtn.click();
+                        } else if (e.key === 'ArrowRight' && !accessoriesNextBtn.disabled) {
+                            e.preventDefault();
+                            accessoriesNextBtn.click();
+                        }
+                    });
+                });
+            </script>
+        </section>
+
+        <!-- Big Screen Section -->
+        <section class="w-full bg-[#f5f5f7] py-24">
+            <div class="max-w-[1380px] mx-auto px-4">
+                <!-- Main Headline -->
+                <div class="text-center mb-10">
+                    <h2 class="text-4xl md:text-[56px] font-bold text-[#1d1d1f] tracking-tight leading-[1.05]">
+                        Watch, sing, play, and work out.<br>On the big screen.
+                    </h2>
+                </div>
+
+                <!-- Video Container -->
+                <div class="rounded-2xl overflow-hidden shadow-sm bg-black relative group mx-auto"
+                    style="height: 612px; width: 1090px; margin-bottom: 50px;">
+                    <video autoplay loop muted playsinline class="w-full h-full object-cover">
+                        <source src="images/TV_Home/medium_2x.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <!-- Overlay content: Arcade logo + text -->
+                    <div class="absolute bottom-6 md:bottom-12 left-6 md:left-12 flex items-center gap-4">
+                        <img src="images/TV_Home/apple_arcade_logo__fkj0u4ziuguy_medium_2x.png" alt="Apple Arcade"
+                            class="h-6 md:h-8 w-auto object-contain brightness-0 invert">
+                        <span
+                            class="text-white font-medium tracking-wide text-xs md:text-[13px] uppercase opacity-90 border-l border-white/60 pl-4">What
+                            the clash?</span>
+                    </div>
+                </div>
+
+                <!-- Services Grid -->
+                <div class="flex justify-between items-start gap-4 md:gap-6 max-w-[1200px] mx-auto w-full">
+                    <!-- Apple TV+ -->
+                    <div class="flex-1 flex flex-col items-center text-center w-1/4">
+                        <img src="images/TV_Home/tv_logo__c9us0ycw724i_medium_2x.png" alt="Apple TV+"
+                            class="mb-5 object-contain" style="width: 188px; height: 36px;">
+                        <p class="text-[14px] md:text-[17px] leading-snug text-[#1d1d1f] font-normal mb-5 px-2">
+                            Stream award-winning<br>Apple Originals on<br>every screen.
+                        </p>
+                        <a href="#"
+                            class="bg-[#0071e3] text-white rounded-full px-5 text-[13px] font-normal hover:bg-[#0077ed] transition-colors mb-4 flex justify-center items-center w-max mx-auto min-w-[90px]"
+                            style="height: 36px;">
+                            Try it free<sup class="text-[0.6em] top-[-0.2em] relative">2</sup>
+                        </a>
+                        <a href="#" class="text-[#06c] hover:underline text-[14px] font-normal group">
+                            Learn more <span class="group-hover:underline">&gt;</span>
+                        </a>
+                    </div>
+
+                    <!-- Apple Music -->
+                    <div class="flex-1 flex flex-col items-center text-center w-1/4">
+                        <img src="images/TV_Home/apple_music_logo__fysswdp9i4yi_medium_2x.png" alt="Apple Music"
+                            class="mb-5 object-contain" style="width: 188px; height: 36px;">
+                        <p class="text-[14px] md:text-[17px] leading-snug text-[#1d1d1f] font-normal mb-5 px-2">
+                            All music. Highest audio<br>quality. Zero ads.
+                        </p>
+                        <a href="#"
+                            class="bg-[#0071e3] text-white rounded-full px-5 text-[13px] font-normal hover:bg-[#0077ed] transition-colors mb-4 flex justify-center items-center w-max mx-auto min-w-[90px]"
+                            style="height: 36px;">
+                            Get Apple Music
+                        </a>
+                        <a href="#" class="text-[#06c] hover:underline text-[14px] font-normal group">
+                            Learn more <span class="group-hover:underline">&gt;</span>
+                        </a>
+                    </div>
+
+                    <!-- Apple Arcade -->
+                    <div class="flex-1 flex flex-col items-center text-center w-1/4">
+                        <img src="images/TV_Home/apple_arcade_logo__fkj0u4ziuguy_medium_2x.png" alt="Apple Arcade"
+                            class="mb-5 object-contain" style="width: 188px; height: 36px;">
+                        <p class="text-[14px] md:text-[17px] leading-snug text-[#1d1d1f] font-normal mb-5 px-2">
+                            Best collection of mobile<br>games for every player.
+                        </p>
+                        <a href="#"
+                            class="bg-[#0071e3] text-white rounded-full px-5 text-[13px] font-normal hover:bg-[#0077ed] transition-colors mb-4 flex justify-center items-center w-max mx-auto min-w-[90px]"
+                            style="height: 36px;">
+                            Try it free<sup class="text-[0.6em] top-[-0.2em] relative">4</sup>
+                        </a>
+                        <a href="#" class="text-[#06c] hover:underline text-[14px] font-normal group">
+                            Learn more <span class="group-hover:underline">&gt;</span>
+                        </a>
+                    </div>
+
+                    <!-- Apple Fitness+ -->
+                    <div class="flex-1 flex flex-col items-center text-center w-1/4">
+                        <img src="images/TV_Home/fitness_plus_logo__ejje682nywae_medium_2x.png" alt="Apple Fitness+"
+                            class="mb-5 object-contain" style="width: 188px; height: 36px;">
+                        <p class="text-[14px] md:text-[17px] leading-snug text-[#1d1d1f] font-normal mb-5 px-2">
+                            From HIIT to Meditation,<br>there's something<br>for everyone.
+                        </p>
+                        <a href="#"
+                            class="bg-[#0071e3] text-white rounded-full px-5 text-[13px] font-normal hover:bg-[#0077ed] transition-colors mb-4 flex justify-center items-center w-max mx-auto min-w-[90px]"
+                            style="height: 36px;">
+                            Try it free<sup class="text-[0.6em] top-[-0.2em] relative">5</sup>
+                        </a>
+                        <a href="#" class="text-[#06c] hover:underline text-[14px] font-normal group">
+                            Learn more <span class="group-hover:underline">&gt;</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- TV & Home Footer -->
+        <footer class="bg-[#f5f5f7] text-[#1d1d1f] w-full">
+
+            <!-- Value Props Section -->
+            <div class="max-w-[980px] mx-auto px-4 md:px-6 py-10 md:py-14">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-4 relative">
+                    <!-- Delivery -->
+                    <div class="flex flex-col items-center text-center">
+                        <!-- Truck Icon -->
+                        <div class="mb-2">
+                            <img src="./images/TV_Home/icon_truck.svg" alt="Fast, free delivery"
+                                style="width: 49px; height: 56px;">
+                        </div>
+                        <h3 class="text-[17px] md:text-[19px] font-semibold text-[#1d1d1f] mb-1">Fast, free delivery
+                        </h3>
+                        <p class="text-[14px] md:text-[14px] text-[#1d1d1f] mb-3 font-normal leading-relaxed">Or pick up
+                            available items at an<br>Apple Store.</p>
+                        <a href="#"
+                            class="text-[#0066cc] text-[14px] hover:underline font-normal flex items-center gap-1">Learn
+                            more <span class="text-[10px]">&gt;</span></a>
+                    </div>
+
+                    <!-- Chat Help -->
+                    <div class="flex flex-col items-center text-center">
+                        <!-- Chat Icon -->
+                        <div class="mb-2">
+                            <img src="./images/TV_Home/icon_chat.svg" alt="Get help buying"
+                                style="width: 48px; height: 56px;">
+                        </div>
+                        <h3 class="text-[17px] md:text-[19px] font-semibold text-[#1d1d1f] mb-1">Get help buying</h3>
+                        <p class="text-[14px] md:text-[14px] text-[#1d1d1f] mb-3 font-normal leading-relaxed">Have a
+                            question? Call a Specialist<br>or chat online.</p>
+                        <a href="#"
+                            class="text-[#0066cc] text-[14px] hover:underline font-normal flex items-center gap-1">Contact
+                            us <span class="text-[10px]">&gt;</span></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Content Divider -->
+            <div class="max-w-[980px] mx-auto px-4 md:px-6">
+                <div class="border-t border-[#d2d2d7]"></div>
+            </div>
+
+            <!-- Footnotes -->
+            <div class="max-w-[980px] mx-auto px-4 md:px-6 py-8">
+                <div class="text-[11px] text-[#86868b] leading-[1.33] space-y-6">
+                    <p>1. Product availability varies by country.</p>
+                    <p>2. New subscribers only. $12.99/month after free trial. Apple TV subscription does not include
+                        third-party branded subscription services or content available for rental or purchase in the
+                        Apple TV app. Plan automatically renews until cancelled. Terms apply.</p>
+                    <p>3. New subscribers only. $6.99/month after free trial. Plan automatically renews until cancelled.
+                        Terms apply.</p>
+                    <p>4. Apple Fitness+ requires iPhone 8 or later, or Apple Watch Series 3 or later paired with iPhone
+                        6s or later. New subscribers only. $9.99/month after trial. Plan automatically renews until
+                        cancelled. Terms apply.</p>
+                    <p class="mt-2">"All Of Me" Written By: Abby Keen, Dyo, Neo Jessica Joshua, PRGRSHN.</p>
+                </div>
+            </div>
+
+            <!-- Breadcrumbs Divider -->
+            <div class="max-w-[980px] mx-auto px-4 md:px-6">
+                <div class="border-t border-[#d2d2d7]"></div>
+            </div>
+
+            <!-- Breadcrumbs -->
+            <div class="max-w-[980px] mx-auto px-4 md:px-6 py-4">
+                <div class="flex items-center gap-2 text-[12px] text-[#424245]">
+                    <a href="#" class="hover:underline text-[#1d1d1f]">
+                        <svg class="w-3.5 h-3.5" viewBox="0 0 17 17" fill="currentColor">
+                            <path
+                                d="M14.0708 8.16901C14.0708 5.73239 16.0845 4.60563 16.1549 4.57042C16.1268 4.47887 15.6831 2.94366 14.6197 1.39437C13.8803 0.330986 12.9648 0.0352113 11.9789 0.0352113C10.0211 0.0352113 9.07042 1.1831 8.0493 1.1831C6.99296 1.1831 5.8662 0.0704225 4.28169 0.0704225C2.16901 0.0704225 0 1.79577 0 4.67606C0 7.3169 1.67606 11.2254 3.33099 13.6197C4.14085 14.7817 5.12676 16.2958 6.42958 16.2958C7.66197 16.2958 8.01408 15.4859 9.52817 15.4859C11.007 15.4859 11.4296 16.2606 12.662 16.2606C13.8944 16.2606 14.6338 15.1338 15.4789 13.9014C16.0775 13.0211 16.6056 12.0352 16.993 11.1901C16.9577 11.1901 14.0708 10.0634 14.0708 8.16901ZM11.169 1.8169C11.9789 0.830986 11.9085 0 11.8732 0C11.0986 0.0352113 10.162 0.528169 9.59859 1.19718C9.07042 1.76056 8.57746 2.64085 8.71831 3.48592C9.52817 3.55634 10.3732 3.06338 11.169 1.8169Z" />
+                        </svg>
+                    </a>
+                    <span class="text-[#86868b] text-[10px]">&gt;</span>
+                    <span class="text-[#424245]">TV & Home</span>
+                </div>
+            </div>
+
+            <!-- Directory Columns -->
+            <div class="max-w-[980px] mx-auto px-4 md:px-6 py-5">
+                <div class="grid grid-cols-2 md:grid-cols-5 gap-x-3 gap-y-8 text-[12px]">
+
+                    <!-- Column 1 -->
+                    <div>
+                        <div class="mb-5">
+                            <h3 class="font-semibold text-[#1d1d1f] mb-2">Shop and Learn</h3>
+                            <ul class="space-y-2 text-[#424245]">
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Store</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Mac</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">iPad</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">iPhone</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Watch</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Vision</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">AirPods</a></li>
+                                <li><a href="tv-home.html" class="hover:underline hover:text-[#1d1d1f]">TV & Home</a>
+                                </li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">AirTag</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Accessories</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Gift Cards</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-[#1d1d1f] mb-2">Apple Wallet</h3>
+                            <ul class="space-y-2 text-[#424245]">
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Wallet</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Apple Card</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Apple Pay</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Apple Cash</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Column 2 -->
+                    <div>
+                        <div class="mb-5">
+                            <h3 class="font-semibold text-[#1d1d1f] mb-2">Account</h3>
+                            <ul class="space-y-2 text-[#424245]">
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Manage Your Apple
+                                        Account</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Apple Store Account</a>
+                                </li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">iCloud.com</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-[#1d1d1f] mb-2">Entertainment</h3>
+                            <ul class="space-y-2 text-[#424245]">
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Apple One</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Apple TV+</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Apple Music</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Apple Arcade</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Apple Fitness+</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Apple News+</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Apple Podcasts</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Apple Books</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">App Store</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Column 3 -->
+                    <div>
+                        <h3 class="font-semibold text-[#1d1d1f] mb-2">Apple Store</h3>
+                        <ul class="space-y-2 text-[#424245]">
+                            <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Find a Store</a></li>
+                            <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Genius Bar</a></li>
+                            <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Today at Apple</a></li>
+                            <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Group Reservations</a></li>
+                            <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Apple Camp</a></li>
+                            <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Apple Store App</a></li>
+                            <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Certified Refurbished</a></li>
+                            <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Apple Trade In</a></li>
+                            <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Financing</a></li>
+                            <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Carrier Deals at Apple</a></li>
+                            <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Order Status</a></li>
+                            <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Shopping Help</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 4 -->
+                    <div>
+                        <div class="mb-5">
+                            <h3 class="font-semibold text-[#1d1d1f] mb-2">For Business</h3>
+                            <ul class="space-y-2 text-[#424245]">
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Apple and Business</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Shop for Business</a></li>
+                            </ul>
+                        </div>
+                        <div class="mb-5">
+                            <h3 class="font-semibold text-[#1d1d1f] mb-2">For Education</h3>
+                            <ul class="space-y-2 text-[#424245]">
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Apple and Education</a>
+                                </li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Shop for K-12</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Shop for College</a></li>
+                            </ul>
+                        </div>
+                        <div class="mb-5">
+                            <h3 class="font-semibold text-[#1d1d1f] mb-2">For Healthcare</h3>
+                            <ul class="space-y-2 text-[#424245]">
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Apple and Healthcare</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-[#1d1d1f] mb-2">For Government</h3>
+                            <ul class="space-y-2 text-[#424245]">
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Apple and Government</a>
+                                </li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Shop for Veterans and
+                                        Military</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Shop for State and Local
+                                        Employees</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Shop for Federal
+                                        Employees</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Column 5 -->
+                    <div>
+                        <div class="mb-5">
+                            <h3 class="font-semibold text-[#1d1d1f] mb-2">Apple Values</h3>
+                            <ul class="space-y-2 text-[#424245]">
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Accessibility</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Education</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Environment</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Inclusion and Diversity</a>
+                                </li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Privacy</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Racial Equity and
+                                        Justice</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Supply Chain Innovation</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-[#1d1d1f] mb-2">About Apple</h3>
+                            <ul class="space-y-2 text-[#424245]">
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Newsroom</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Apple Leadership</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Career Opportunities</a>
+                                </li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Investors</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Ethics & Compliance</a>
+                                </li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Events</a></li>
+                                <li><a href="#" class="hover:underline hover:text-[#1d1d1f]">Contact Apple</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- More Ways to Shop -->
+            <div class="max-w-[980px] mx-auto px-4 md:px-6 py-4 border-b border-[#d2d2d7]">
+                <p class="text-[12px] text-[#86868b]">
+                    More ways to shop: <a href="#" class="text-[#0066cc] hover:underline">Find an Apple Store</a> or
+                    <a href="#" class="text-[#0066cc] hover:underline">other retailer</a> near you.
+                    Or call <a href="tel:1-800-692-7753" class="text-[#0066cc] hover:underline">1-800-MY-APPLE</a>.
+                </p>
+            </div>
+
+            <!-- Copyright -->
+            <div
+                class="max-w-[980px] mx-auto px-4 md:px-6 py-4 flex flex-col md:flex-row justify-between items-center text-[11px] md:text-[12px] text-[#86868b]">
+                <div class="mb-2 md:mb-0">
+                    Copyright © 2025 Apple Inc. All rights reserved.
+                </div>
+                <div class="flex flex-wrap justify-center gap-x-2 md:gap-x-4 mb-2 md:mb-0">
+                    <a href="#" class="text-[#424245] hover:underline hover:text-[#1d1d1f]">Privacy Policy</a>
+                    <span class="text-[#d2d2d7]">|</span>
+                    <a href="#" class="text-[#424245] hover:underline hover:text-[#1d1d1f]">Terms of Use</a>
+                    <span class="text-[#d2d2d7]">|</span>
+                    <a href="#" class="text-[#424245] hover:underline hover:text-[#1d1d1f]">Sales and Refunds</a>
+                    <span class="text-[#d2d2d7]">|</span>
+                    <a href="#" class="text-[#424245] hover:underline hover:text-[#1d1d1f]">Legal</a>
+                    <span class="text-[#d2d2d7]">|</span>
+                    <a href="#" class="text-[#424245] hover:underline hover:text-[#1d1d1f]">Site Map</a>
+                </div>
+                <div>
+                    <a href="#" class="text-[#424245] hover:underline hover:text-[#1d1d1f]">United States</a>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
