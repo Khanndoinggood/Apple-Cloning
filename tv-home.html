@@ -1067,10 +1067,10 @@
         <!-- Hero Banner Grid Section -->
         <section class="w-full bg-[#f5f5f7] py-12">
             <div class="max-w-[1380px] mx-auto px-4">
-                <!-- 12-Column Grid with Explicit Row Heights -->
+                <!-- Grid Container-->
                 <div class="grid grid-cols-12 gap-5 md:gap-[20px] grid-rows-[800px_790px]">
 
-                    <!-- Top Left Card: HomePod (Black) -->
+                    <!-- Top Left Card: HomePod -->
                     <div
                         class="col-span-12 md:col-span-6 bg-black rounded-2xl overflow-hidden shadow-sm relative h-full w-full">
                         <div class="absolute top-0 w-full pt-8 px-8 text-center z-10">
@@ -1090,7 +1090,7 @@
                         </div>
                     </div>
 
-                    <!-- Top Right Card: HomePod mini (White) -->
+                    <!-- Top Right Card: HomePod mini -->
                     <div
                         class="col-span-12 md:col-span-6 bg-white rounded-2xl overflow-hidden shadow-sm relative h-full w-full">
                         <div class="absolute top-0 w-full pt-8 px-8 text-center z-10">
@@ -1170,14 +1170,6 @@
                     </h2>
                 </div>
 
-                <!-- Carousel Container -->
-                <!-- 
-                    STRICT LAYOUT LOGIC (GRID EDITION):
-                    - Container Height: 480px
-                    - Grid Flow: Column (Horizontal Scroll)
-                    - Column Width: 400px (Fixed via auto-cols)
-                    - Spacing: 20px (gap-5)
-                -->
                 <div id="smart-home-carousel" role="region" aria-label="Smart Home features carousel"
                     class="grid grid-flow-col auto-cols-[400px] gap-5 snap-x snap-mandatory scrollbar-hide -mx-4 px-4 md:mx-0 md:px-0 scroll-smooth content-start h-[480px] overflow-x-auto">
 
@@ -1254,7 +1246,6 @@
                         </div>
                     </div>
 
-                    <!-- No spacer needed for exact 4-card fit on desktop -->
                 </div>
 
                 <!-- Navigation Arrows -->
@@ -1284,9 +1275,6 @@
                         console.error('Smart Home Carousel elements not found');
                         return;
                     }
-
-                    // Card width (400px) + Gap (20px) = 420px
-                    // STRICT VALUE - DO NOT CHANGE WITHOUT USER CONSENT
                     const SCROLL_AMOUNT = 420;
 
                     // Update button states based on scroll position
@@ -1294,20 +1282,15 @@
                         const scrollLeft = carousel.scrollLeft;
                         const maxScroll = carousel.scrollWidth - carousel.clientWidth;
 
-                        // Disable prev button at start (with small tolerance for rounding)
                         prevBtn.disabled = scrollLeft <= 1;
 
-                        // Disable next button at end (with small tolerance for rounding)
                         nextBtn.disabled = scrollLeft >= maxScroll - 1;
                     }
 
-                    // Initialize button states on page load
                     updateButtonStates();
 
-                    // Update button states on scroll
                     carousel.addEventListener('scroll', updateButtonStates);
 
-                    // Navigation handlers
                     nextBtn.addEventListener('click', () => {
                         carousel.scrollBy({ left: SCROLL_AMOUNT, behavior: 'smooth' });
                     });
@@ -1315,8 +1298,6 @@
                     prevBtn.addEventListener('click', () => {
                         carousel.scrollBy({ left: -SCROLL_AMOUNT, behavior: 'smooth' });
                     });
-
-                    // Support keyboard navigation on carousel
                     carousel.addEventListener('keydown', (e) => {
                         if (e.key === 'ArrowLeft' && !prevBtn.disabled) {
                             e.preventDefault();
@@ -1414,7 +1395,7 @@
                             </div>
                         </div>
 
-                        <!-- Card 4: Additional category (optional - add more if needed) -->
+                        <!-- Card 4: Additional category -->
                         <div class="snap-start bg-white overflow-hidden shadow-sm relative w-[400px] min-w-[400px] h-[480px] flex flex-col"
                             style="border-radius: 16px;">
                             <div class="pt-10 px-6 text-center">
@@ -1466,10 +1447,8 @@
                         return;
                     }
 
-                    // Card width (400px) + Gap (20px) = 420px
                     const ACCESSORIES_SCROLL_AMOUNT = 420;
 
-                    // Update button states based on scroll position
                     function updateAccessoriesButtonStates() {
                         const scrollLeft = accessoriesCarousel.scrollLeft;
                         const maxScroll = accessoriesCarousel.scrollWidth - accessoriesCarousel.clientWidth;
@@ -1478,13 +1457,10 @@
                         accessoriesNextBtn.disabled = scrollLeft >= maxScroll - 1;
                     }
 
-                    // Initialize button states on page load
                     updateAccessoriesButtonStates();
 
-                    // Update button states on scroll
                     accessoriesCarousel.addEventListener('scroll', updateAccessoriesButtonStates);
 
-                    // Navigation handlers
                     accessoriesNextBtn.addEventListener('click', () => {
                         accessoriesCarousel.scrollBy({ left: ACCESSORIES_SCROLL_AMOUNT, behavior: 'smooth' });
                     });
@@ -1493,7 +1469,6 @@
                         accessoriesCarousel.scrollBy({ left: -ACCESSORIES_SCROLL_AMOUNT, behavior: 'smooth' });
                     });
 
-                    // Support keyboard navigation on carousel
                     accessoriesCarousel.addEventListener('keydown', (e) => {
                         if (e.key === 'ArrowLeft' && !accessoriesPrevBtn.disabled) {
                             e.preventDefault();
@@ -1649,7 +1624,6 @@
 
             <!-- Content Divider -->
             <div class="max-w-[980px] mx-auto px-4 md:px-6">
-                <!-- No distinct divider line in image between value props and footnotes, but standard spacing -->
                 <div class="border-t border-[#d2d2d7]"></div>
             </div>
 
@@ -1853,7 +1827,7 @@
                 </p>
             </div>
 
-            <!-- Copyright and Legal -->
+            <!-- Copyright -->
             <div
                 class="max-w-[980px] mx-auto px-4 md:px-6 py-4 flex flex-col md:flex-row justify-between items-center text-[11px] md:text-[12px] text-[#86868b]">
                 <div class="mb-2 md:mb-0">
