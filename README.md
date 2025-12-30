@@ -3,7 +3,13 @@
 A high-fidelity landing page and product page clone of the Apple website, built with modern frontend technologies.
 
 ## 🚀 Live Demo
-Once deployed, you can view the live site at: **[Your GitHub Pages URL]**
+The site is live at: **[https://Khanndoinggood.github.io/Apple-Cloning/](https://Khanndoinggood.github.io/Apple-Cloning/)**
+
+## 📦 Deployment
+To deploy the latest changes to GitHub Pages, run:
+```bash
+npm run deploy
+```
 
 ## 🛠️ Built With
 - **HTML5 & Vanilla JavaScript**: For structure and interactivity.
